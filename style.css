@@ -1,0 +1,192 @@
+body {
+  width: 100vw;
+  background: url(IMG/capstone-body-background.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Lato", sans-serif;
+  margin-left: 0;
+  overflow-x: hidden;
+}
+
+.header-wrapper {
+  position: fixed;
+  padding-left: 0.45em;
+  top: 19px;
+}
+
+.fa-reorder {
+  color: rgb(104, 148, 230);
+  font-size: 45px;
+  padding-left: 10px;
+}
+
+.middle-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.top-header {
+  color: rgba(0, 0, 145, 0.705);
+  padding-top: 3em;
+  font-size: 40px;
+  padding-left: 0.45em;
+  padding-right: 0.45em;
+}
+
+.text-container {
+  width: 100%;
+  /* border:solid 2px gray; */
+  font-family: "Lato", sans-serif;
+  color: rgb(0, 109, 128);
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+}
+
+.text1 {
+  background-color: #fff;
+  padding: 4%;
+  border: solid 3px rgb(219, 219, 219);
+}
+
+.program {
+  width: 100%;
+  background-image: url(/IMG/ITU-International-Conference-on-Artificial-Intelligence-for-Good-1024x439.png);
+  background-size: cover;
+  color: #fff;
+  line-height: 30px;
+  opacity: 1;
+}
+
+.program-wrapper {
+  background-color: rgba(0, 0, 0, 0.575);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step {
+  width: 90%;
+  background: rgba(94, 94, 94, 0.425);
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+}
+
+.step:hover {
+  border: solid 2px #fff;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.text2 {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(78, 75, 75);
+}
+
+.text2 h2 {
+  margin-bottom: -12px;
+}
+
+.program-header {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 60%;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 10px;
+}
+.inline1 {
+  padding-bottom: 4px;
+  border-bottom: solid 1px;
+}
+
+.last-step {
+  line-height: 15px;
+}
+
+.icon {
+  width: 30px;
+  margin-top: -5px;
+  float: left;
+}
+
+.icon2 {
+  width: 30px;
+  padding-top: 4px;
+  float: left;
+}
+
+.speakers-header {
+    text-align: center;
+}
+
+.each-speaker {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker-wrapper {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.speaker-image {
+    width: 120px;
+    height: 120px;
+}
+
+.image {
+    width: 96px;
+    height:96px;
+    border:solid 1px gray;
+    margin: 12px;
+    margin-top: -45px;
+}
+
+.speaker-description {
+ width: 88%;
+ height: 120px;
+
+}
+
+.behind-picture {
+    width:58px;
+    height: 58px;
+    background-color: rgb(104, 148, 230);
+    margin: 0;
+}
+
+.speaker-name {
+    margin-bottom:-20px;
+}
+
+.inline2 {
+    margin-bottom: 0;
+    color: rgb(0, 0, 145);
+}
+
+hr {
+    width: 20px;
+    margin-left: 0;
+}
+
+.description-text {
+    font-size: 12px;
+    margin-top: -7px;
+    font-family: 'Lato',sans-serif;
+}
