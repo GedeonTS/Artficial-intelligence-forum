@@ -4,8 +4,6 @@ const canceli = document.getElementById('cancel');
 const link1 = document.getElementById('elem1');
 const link2 = document.getElementById('elem2');
 const link3 = document.getElementById('elem3');
-const section1 = document.getElementById('section1');
-const headernav = document.getElementById('headernav');
 
 open.addEventListener('click', () => {
   open.classList.add('hide');
@@ -14,7 +12,6 @@ open.addEventListener('click', () => {
   close.classList.add('show');
   canceli.classList.remove('hide');
   canceli.classList.add('show');
-
 });
 canceli.addEventListener('click', () => {
   close.classList.add('hide');
@@ -50,5 +47,4 @@ link3.addEventListener('click', () => {
   canceli.classList.remove('show');
   open.classList.remove('hide');
   open.classList.add('show');
-
 });
