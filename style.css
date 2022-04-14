@@ -275,7 +275,7 @@ hr {
 .js-menu {
   background-image: url(./IMG/artificial-intelligence.jpg);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   margin-top: -20px;
   padding-top: 20px;
   margin-right: 0;
@@ -441,13 +441,58 @@ font-weight: 400;
 }
 
 .partners {
-  background-color: rgba(0, 0, 0, 0.856);
+  background-color: #272A31;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:5vh ;
+  margin-top:5% ;
 }
 
 .font {
   color:#fff
+}
+
+.partner-logos {
+  list-style: none;
+  width: 80%;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  margin-left: -6%;
+}
+
+.partner-logos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-logos li p {
+    margin-top: -6%;
+    margin-left: 3%;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-self: center;
+}
+
+.about-section1 {
+  margin-top: -5%;
+  padding-top: 10px;
+}
+
+.margin-top {
+  margin-top: 0;
+}
+
+.big-footer {
+  display: none;
 }
