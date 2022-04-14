@@ -25,11 +25,12 @@
   <body>
     <!-- popup menu area -->
 
-    <div id="close" class="js-menu hide">
+    <div id="close" class="js-menu hide show2">
       <div class="menu-wrapper">
-        <a id="cancel" class="hide"
+        <a id="cancel" class="hide hide2"
           ><img class="canceli" src="IMG/Icon-Cancel.png" alt="icon"
         /></a>
+        <img class="logo-nav" src="./IMG/itu-logo.png" alt="logo" />
         <ul class="js-list" id="mobile-menu-list">
           <li>
             <a href="#portfolio" class="menu-list" id="elem1">UTI Projects</a>
@@ -38,7 +39,7 @@
             <a href="./about-page.html" class="menu-list" id="elem2">About</a>
           </li>
           <li>
-            <a href="#contact-me" class="menu-list" id="elem3">Partners</a>
+            <a href="#contact-me" class="menu-list nav-styled" id="elem3">Partners</a>
           </li>
         </ul>
       </div>
@@ -46,11 +47,11 @@
     <!-- popup menu area -->
 
     <header class="header-wrapper">
-      <div class="menu-icon" id="open"><i class="fa fa-reorder"></i></div>
+      <div class="menu-icon hide2" id="open"><i class="fa fa-reorder"></i></div>
     </header>
     <main>
       <section class="middle-section-wrapper">
-        <section>
+        <section class="header-resizing">
           <h3 class="greetings">"Hello!smart world"</h3>
           <h1 class="top-header">GLOBAL FORUM ON AI AND IoT</h1>
         </section>
@@ -75,17 +76,18 @@
         <section class="program-wrapper">
           <div class="program-header">
             <h2>Mai<span class="inline1">n Pro</span>gram</h2>
-          </div>
+          </div><div class="steps">
           <div class="step">
-            <h4><i class="fa fa-book" aria-hidden="true"></i> Lecture</h4>
+            <span class="icon2"><i class="fa fa-book" aria-hidden="true"></i></span> 
+            <h4>Lecture</h4>
             <div class="content">
               listen to the speakers from various countries about the messages
               of sharing and opening
             </div>
           </div>
           <div class="step">
-            <h4>
-              <span class="icon2"><i class="material-icons">burst_mode</i></span>
+            <span class="icon2"><i class="material-icons">burst_mode</i></span>
+            <h4>  
               Exhibition
             </h4>
             <div class="content">
@@ -94,43 +96,48 @@
             </div>
           </div>
           <div class="step">
-            <h4><i class="fa fa-comments" aria-hidden="true"></i> Forum</h4>
+            <span class="icon2"><i class="fa fa-comments" aria-hidden="true"></i></span> 
+            <h4>Forum</h4>
             <div class="content">
               Have the time to share your thoughts with experts for different
               topics
             </div>
           </div>
           <div class="step">
-            <h4>
-              <span class="icon"><i class="material-icons">build</i></span>
+            <span class="icon"><i class="material-icons">build</i></span>
+            <h4>  
               Workshop
             </h4>
             <div class="content">
               Seizing the benefits of AI and IoT through data security
             </div>
           </div>
-          <div class="step last-step">
+          <div class="step ">
+            <span class="icon">
+              <i class="material-icons">assignment_ind</i>
+            </span>
             <h4>
-              <span class="icon">
-                <i class="material-icons">assignment_ind</i>
-              </span>
               Info Session
             </h4>
             <div class="content">
               Information on ITU Activities on "Environment, Climate Change and
               Circular Economy"
             </div>
-          </div>
+          </div></div>
           <a class="btn1 btn11" href="#">Join the Global Forum</a>
+          <a class="see-program">SEE THE WHOLE PROGRAM</a>
+         
         </section>
+        
       </div>
       <section class="speakers">
         <h2 class="speakers-header">Featured speakers</h2>
-        <section class="each-speaker">
-          <!-- <div class="speaker-wrapper"><div class="speaker-image"><div class="behind-picture"></div><img src="/IMG/KARIM.jpeg" class="image" alt="speaker-profile-image"></div>
-                <div class="speaker-description">
-                    <h4 class="speaker-name">Mr Karim Abdelghani</h4><h6 class="inline2"><i>ITU Regional Officer for the Arab States</i></h6><hr><p class="description-text">With an experience of around 17 years in Information and Communication Technology</p></div> -->
+        <section id="speaker-list1" class="each-speaker">
+      <!-- ---------------speakers----------------- -->
         </section>
+        <section id="speaker-list2" class="each-speaker">
+          <!-- ---------------speakers----------------- -->
+            </section>
         <div class="HS-buttons"></div>
         <!-- <div class="btn2-wrapper"><a class="btn1 btn2" href="#"><div>MORE</div><div class="arrow-down"><i class="material-icons ">keyboard_arrow_down</i></div></a></div> -->
       </section>
@@ -161,6 +168,7 @@
             </div>
             <div class="footer-content">
               <p>© 2022 The ITU-T. All rights reserved.</p>
+              <p class="footer-extra">全球人工智能和物聯網會議是一個領先的論壇，供來自學術界</p>
             </div>
           </div>
         </footer>

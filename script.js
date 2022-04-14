@@ -1,7 +1,7 @@
 // speaker card
-function speaker(photo, Name, Work, Descrition) {
+function speaker(photo, Name, Work, Descrition, containerC) {
   // Creation of elements
-  const AllSpeakers = document.querySelector('.each-speaker');
+  const AllSpeakers = containerC; 
   const speakerWrapper = document.createElement('section');
   const speakerImage = document.createElement('div');
   const behindPicture = document.createElement('div');
@@ -101,8 +101,13 @@ linkBtn22.append(textBtn22, arrow2);
 // Hide&Show button values
 textBtn22.innerText = 'LESS';
 arrow2.innerHTML = '<i class="material-icons ">keyboard_arrow_up</i>';
+
 for (let x = 0; x < Data1.length; x += 1) {
-  speaker(Data1[x].photo, Data1[x].Name, Data1[x].Work, Data1[x].Descrition);
+  speaker(Data1[x].photo, Data1[x].Name, Data1[x].Work, Data1[x].Descrition, document.querySelector('#speaker-list2'));
+}
+
+for (let x = 0; x < Data1.length; x += 1) {
+  speaker(Data1[x].photo, Data1[x].Name, Data1[x].Work, Data1[x].Descrition, document.querySelector('#speaker-list1'));
 
   const cardsArray = document.querySelectorAll('.speaker-wrapper');
   if (x >= 2) {
