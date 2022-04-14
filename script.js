@@ -1,7 +1,7 @@
 // speaker card
 function speaker(photo, Name, Work, Descrition, containerC) {
   // Creation of elements
-  const AllSpeakers = containerC; 
+  const AllSpeakers = containerC;
   const speakerWrapper = document.createElement('section');
   const speakerImage = document.createElement('div');
   const behindPicture = document.createElement('div');

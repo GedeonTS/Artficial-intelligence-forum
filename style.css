@@ -235,6 +235,7 @@ hr {
   margin-top: -7px;
   font-family: "Lato", sans-serif;
   color: #272a31;
+
   /* line-height: 13px; */
 }
 
@@ -300,9 +301,10 @@ hr {
 
 .js-menu {
   background-image: url(./IMG/artificial-intelligence.jpg);
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  margin-top: -20px;
+
+  /* margin-top: -20px; */
   padding-top: 20px;
   margin-right: 0;
   position: fixed;
@@ -335,7 +337,7 @@ hr {
 
 .menu-wrapper {
   background-color: rgba(255, 0, 0, 0.226);
-  width: 100vw;
+  width: 100%;
   margin-top: -10px;
 }
 
@@ -545,17 +547,21 @@ hr {
   }
 
   .menu-wrapper {
-    height: 0%;
-    background-color: rgb(116, 45, 45);
+    height: 50px;
+    background-color: #fff;
     display: flex;
-    margin-left: 20%;
+    border-bottom: solid 1px #4e515731;
   }
 
   .js-menu {
     color: #272a31;
     background-image: none;
-    height: 7%;
+    height: 30px;
     border-bottom: solid 1px #4e515731;
+    font-weight: 200;
+    line-height: 12px;
+    padding: 0;
+    margin: 0;
   }
 
   .hide2 {
@@ -563,18 +569,19 @@ hr {
   }
 
   .js-list {
-    margin-top: 0;
+    margin-top: -12px;
     padding-top: 0;
     margin-right: 0;
     color: #272a31;
     display: flex;
-    margin-left: 40%;
+    margin-left: 47%;
     justify-content: space-between;
   }
 
   .menu-list {
     color: #272a31;
     margin-left: 25px;
+    font-size: 13px;
   }
 
   .nav-styled {
@@ -584,8 +591,10 @@ hr {
   }
 
   .logo-nav {
-    height: 60px;
-    width: 60px;
+    height: 29px;
+    width: 29px;
+    margin-left: 25%;
+    margin-top: 10px;
   }
 
   .text1 {
@@ -609,7 +618,7 @@ hr {
     margin-left: 0%;
     margin-top: 3%;
     margin-bottom: 10%;
-    margin-right: 50%;
+    margin-right: 44%;
   }
 
   .steps {
@@ -617,9 +626,9 @@ hr {
     flex-direction: row;
     width: 70%;
   }
+
   .step {
     margin: 4px;
-    flex-direction: column;
     min-height: 200px;
     display: flex;
     flex-direction: column;
@@ -720,7 +729,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 10;
   }
 
   .logo-descriptiona p {
@@ -740,7 +748,6 @@ hr {
     padding: 0;
     margin-left: 30%;
     margin-right: 30%;
-
   }
 
   .new-york {
@@ -769,7 +776,7 @@ hr {
   .footera {
     margin-top: 7%;
     background-color: #272a31;
-    color:#fff;
+    color: #fff;
   }
 
   .partnersa {
@@ -782,5 +789,23 @@ hr {
     margin-right: 50px;
   }
 
-  
+  .js-menua {
+    margin-top: 30px;
+  }
+
+  .menu-wrappera {
+    height: 90px;
+  }
+
+  .log-nava {
+    padding-top: 40px;
+  }
+
+  .js-lista {
+    margin-top: 27px;
+  }
+
+  .about-section1 {
+    padding-top: 170px;
+  }
 }
