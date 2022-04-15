@@ -41,7 +41,7 @@ const Data1 = [{
   Work: 'ITU Regional Officer for the Arab States',
   Descrition: 'With an experience of around 17 years in Information and Communication Technology',
 }, {
-  photo: './IMG/speakers/IMG_8237 (1).jpg',
+  photo: './IMG/speakers/IMG_8237.jpg',
   Name: 'Mr Ushindi Gedeon',
   Work: 'Software Developer',
   Descrition: 'Co-founder of RX-telecom, With an experience in Information and Communication Technology',

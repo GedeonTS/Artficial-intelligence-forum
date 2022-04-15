@@ -13,6 +13,9 @@
 
 Click [here](https://gedeonts.github.io/Artificial-intelligence-forum/)
 
+## Description video
+
+Click [here](https://www.loom.com/share/e6701b2adcb04501bd0a1b492f46cc49) to see the video discribing the project.
 ## Getting Started
 
 You can have a copy of this repo run on your local machine by just directly cloning it.
