@@ -17,7 +17,7 @@ body {
 }
 
 .fa-reorder {
-  color: rgb(255, 17, 17);
+  color: #272a31;
   font-size: 45px;
   padding-left: 10px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .top-header {
-  color: rgba(253, 72, 72, 0.479);
+  color: #ec5342d0;
   margin-top: -12px;
   font-size: 50px;
   padding-left: 0;
@@ -364,7 +364,7 @@ hr {
 .about-section1 {
   padding: 0;
   margin: 0;
-  background-color: rgba(255, 0, 0, 0.062);
+  background-color: #d3d3d342;
   margin-top: -5%;
   padding-top: 10px;
 }
@@ -532,16 +532,16 @@ hr {
   display: none;
 }
 
+.showx {
+  display: none;
+}
+
+
 /* media media media media media media media media media media media media media media media media media media  */
 
 @media only screen and (min-width: 768px) {
-  .show2 {
+  .showx {
     display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    position: fixed;
   }
 
   .menu-wrapper {
@@ -821,5 +821,90 @@ hr {
 
   .see-program:hover {
     color: #ec5242;
+  }
+
+  .all-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top:-10px;
+    background-color: #ec5242;
+    width: 100%;
+    position:fixed;
+  }
+
+  .black-menu{
+    width: 100%;
+    height: 28px;
+    background-color: #272a31;
+    color: #fff;
+    padding-left: 75%;
+    padding-top: 4px;
+  }
+
+  .white-menu{
+    width: 100%;
+    height:auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:solid 1px #272a312f;
+    
+  }
+
+  .logo-nav-home {
+    height:40px;
+    width:40px;
+  }
+
+  .logo-link {
+    margin-left:10%;
+  }
+
+  .nav {
+    margin-left: 30%;
+    width: 70%;
+    display: flex;
+    height: 60px;
+    align-items: center;
+
+  }
+
+  .nav-item {
+    text-decoration: none;
+    color: #272a31;
+    margin-left: 5%;
+    
+  }
+
+  .last-nav-item {
+    border:solid 4px #ec5242;
+    padding: 4px;
+    color:#ec5242
+  }
+
+  .last-nav-item:hover {
+    background-color: #d3d3d35d;
+   
+  }
+
+  .nav-item:hover {
+    color: #ec5242;
+  }
+
+  .top-nav-a {
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Lato',sans-serif;
+    margin-left: 14px;
+    font-size: 10px;
+  }
+
+  .top-nav-a:hover {
+    color:#ec5242
+  }
+
+  .Adjust-nav-abt-page {
+    margin-top: 50px;
   }
 }
