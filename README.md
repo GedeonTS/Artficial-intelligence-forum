@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-Click [here](https://gedeonts.github.io/Artificial-intelligence-forum/)
+Click [here](https://gedeonts.github.io/Artficial-intelligence-forum/)
 
 ## Description video
 

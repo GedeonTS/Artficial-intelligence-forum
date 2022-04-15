@@ -54,7 +54,7 @@ const Data1 = [{
   photo: './IMG/speakers/BEREAUX-Stephen.jpg',
   Name: 'Mr Stephen Bereaux',
   Work: 'Deputy Director, ITU Development Bureau ',
-  Descrition: 'aith more than 20 years of senior management experience in regulatory bodies in the Caribbean region.',
+  Descrition: 'With more than 20 years of senior management experience in regulatory bodies in the Caribbean region.',
 }, {
   photo: './IMG/speakers/AMINATA.JPG',
   Name: 'Ms Mame Aminata Diambo',
