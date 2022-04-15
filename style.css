@@ -236,7 +236,6 @@ hr {
   margin-top: -7px;
   font-family: "Lato", sans-serif;
   color: #272a31;
-
 }
 
 .btn1 {
@@ -902,10 +901,6 @@ hr {
     color: #ec5242;
   }
 
-  .Adjust-nav-abt-page {
-    margin-top: 50px;
-  }
-
   .top-sizing {
     padding-top: 0;
     margin-top: 90px;
@@ -932,7 +927,10 @@ hr {
   }
 
   .black-menua {
-    margin-top: -10px;
+    margin-top: -30px;
+    height: 27px;
+    padding-top: 35px;
+    padding-bottom: -3px;
   }
 
   .speaker-wrapper {
@@ -952,5 +950,9 @@ hr {
   .u {
     padding-bottom: 10px;
     border-bottom: solid 2px #ec5242;
+  }
+
+  .Adjust-nav-abt-page {
+    margin-top: 60px;
   }
 }
