@@ -206,7 +206,7 @@ h3 {
 .behind-picture {
   width: 58px;
   height: 58px;
-  background-image: url(/IMG/chess.png);
+  background-image: url(./IMG/chess.png);
   background-size: cover;
   margin: 0;
 }
