@@ -771,11 +771,10 @@ hr {
 
   .footer {
     width: auto;
-    align-items: left;
     font-size: 13px;
     margin-top: 40px;
     margin-bottom: 20px;
-   margin-left: -35%;
+    margin-left: -35%;
   }
 
   .footera {
@@ -833,13 +832,13 @@ hr {
   .all-nav {
     display: flex;
     flex-direction: column;
-    margin-top:-10px;
+    margin-top: -10px;
     background-color: #ec5242;
     width: 100%;
-    position:fixed;
+    position: fixed;
   }
 
-  .black-menu{
+  .black-menu {
     width: 100%;
     height: 28px;
     background-color: #272a31;
@@ -848,24 +847,23 @@ hr {
     padding-top: 4px;
   }
 
-  .white-menu{
+  .white-menu {
     width: 100%;
-    height:auto;
+    height: auto;
     background-color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom:solid 1px #272a312f;
-    
+    border-bottom: solid 1px #272a312f;
   }
 
   .logo-nav-home {
-    height:40px;
-    width:40px;
+    height: 40px;
+    width: 40px;
   }
 
   .logo-link {
-    margin-left:10%;
+    margin-left: 10%;
   }
 
   .nav {
@@ -874,25 +872,22 @@ hr {
     display: flex;
     height: 60px;
     align-items: center;
-
   }
 
   .nav-item {
     text-decoration: none;
     color: #272a31;
     margin-left: 5%;
-    
   }
 
   .last-nav-item {
-    border:solid 4px #ec5242;
+    border: solid 4px #ec5242;
     padding: 4px;
-    color:#ec5242
+    color: #ec5242;
   }
 
   .last-nav-item:hover {
     background-color: #d3d3d35d;
-   
   }
 
   .nav-item:hover {
@@ -900,15 +895,15 @@ hr {
   }
 
   .top-nav-a {
-    color:#fff;
+    color: #fff;
     text-decoration: none;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-left: 14px;
     font-size: 10px;
   }
 
   .top-nav-a:hover {
-    color:#ec5242
+    color: #ec5242;
   }
 
   .Adjust-nav-abt-page {
@@ -930,7 +925,7 @@ hr {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .bar {
     width: 1%;
     border: solid 1px red;
@@ -941,7 +936,25 @@ hr {
   }
 
   .black-menua {
-    margin-top:-10px;
+    margin-top: -10px;
   }
-  
+
+  .speaker-wrapper {
+    font-size: 10px;
+    height: 165px;
+    width: 60%;
+  }
+
+  .each-speaker {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .u {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #ec5242;
+  }
 }
