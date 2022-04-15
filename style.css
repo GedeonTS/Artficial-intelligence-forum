@@ -538,9 +538,6 @@ hr {
   display: none;
 }
 
-
-/* media media media media media media media media media media media media media media media media media media  */
-
 @media only screen and (min-width: 768px) {
   .showx {
     display: flex;
