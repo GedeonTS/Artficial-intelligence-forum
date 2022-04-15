@@ -41,20 +41,30 @@ const Data1 = [{
   Work: 'ITU Regional Officer for the Arab States',
   Descrition: 'With an experience of around 17 years in Information and Communication Technology',
 }, {
-  photo: './IMG/KARIM.jpeg',
-  Name: 'Mr Karim Abdelghani',
-  Work: 'ITU Regional Officer for the Arab States',
-  Descrition: 'With an experience of around 17 years in Information and Communication Technology',
+  photo: './IMG/speakers/IMG_8237 (1).jpg',
+  Name: 'Mr Ushindi Gedeon',
+  Work: 'Software Developer',
+  Descrition: 'Co-founder of RX-telecom, With an experience in Information and Communication Technology',
 }, {
-  photo: './IMG/KARIM.jpeg',
+  photo: './IMG/speakers/AmadouGarba.jpg',
   Name: 'Mr Karim Abdelghani',
-  Work: 'ITU Regional Officer for the Arab States',
-  Descrition: 'With an experience of around 17 years in Information and Communication Technology',
+  Work: 'Senior (Technology) Coordinator',
+  Descrition: 'Associate Professor at Carnegie Mellon University, Africa and Director General of the Multi-Sector Regulatory Authority of Niger',
 }, {
-  photo: './IMG/KARIM.jpeg',
-  Name: 'Mr Karim Abdelghani',
-  Work: 'ITU Regional Officer for the Arab States',
-  Descrition: 'With an experience of around 17 years in Information and Communication Technology',
+  photo: './IMG/speakers/BEREAUX-Stephen.jpg',
+  Name: 'Mr Stephen Bereaux',
+  Work: 'Deputy Director, ITU Development Bureau ',
+  Descrition: 'aith more than 20 years of senior management experience in regulatory bodies in the Caribbean region.',
+}, {
+  photo: './IMG/speakers/AMINATA.JPG',
+  Name: 'Ms Mame Aminata Diambo',
+  Work: 'Student',
+  Descrition: 'Student, ESMT Dakar, Senegal',
+}, {
+  photo: './IMG/speakers/allo-cin2.jpg',
+  Name: 'Mr Lacina Koné',
+  Work: 'CEO of Smart Africa',
+  Descrition: ' Advisor to the Prime Minister of the Republic of Côte d`Ivoire (2017-2018), in charge of Digital Transformation',
 }];
 
 // Hide&show variables declaration

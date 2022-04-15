@@ -67,12 +67,11 @@ body {
 
 .program {
   width: 100%;
-  background-image: url(/IMG/ITU-International-Conference-on-Artificial-Intelligence-for-Good-1024x439.png);
+  background-image: url(/IMG/AI20223.jpg);
   background-size: cover;
   color: #fff;
   line-height: 30px;
-  opacity: 1;
-  padding-bottom: 0%;
+  padding-bottom: 0;
 }
 
 .program-wrapper {
@@ -304,7 +303,7 @@ hr {
   width: 100%;
   height: 100%;
 
-  /* margin-top: -20px; */
+  margin-top: -20px;
   padding-top: 20px;
   margin-right: 0;
   position: fixed;
@@ -807,5 +806,13 @@ hr {
 
   .about-section1 {
     padding-top: 170px;
+  }
+
+  .log-nav-link {
+    margin-left: 10%;
+  }
+
+  .logo-nav1 {
+    margin-right: -12%;
   }
 }

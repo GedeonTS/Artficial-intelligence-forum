@@ -23,7 +23,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 ### Usage
 
-Double click on the file index.html
+Double click on the file index.html or go directly on [https://gedeonts.github.io/Artificial-intelligence-forum](https://gedeonts.github.io/Artificial-intelligence-forum)
 
 ## Authors
 
