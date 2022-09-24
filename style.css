@@ -6,7 +6,8 @@ body {
   background-size: cover;
   background-position: center;
   font-family: "Lato", sans-serif;
-  margin-left: 0;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   background-color: rgb(185, 170, 170);
 }
@@ -983,14 +984,13 @@ hr {
   .speaker-wrapper {
     font-size: 10px;
     height: 165px;
-    width: 60%;
   }
 
   .each-speaker {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    width: 80%;
+    width: 85%;
     margin-left: 10%;
   }
 
