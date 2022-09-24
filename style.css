@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 body {
   width: 100vw;
@@ -30,7 +30,6 @@ body {
   align-items: center;
   padding: 2em;
   background-color: rgba(185, 170, 170, 0.11);
-
 }
 
 .top-header {
@@ -50,13 +49,13 @@ body {
   color: red;
   padding-top: 130px;
   font-size: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
 }
 
 .text-container {
   width: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: rgb(0, 109, 128);
   display: flex;
   text-align: center;
@@ -479,25 +478,6 @@ hr {
   color: #fff;
 }
 
-.partner-logos {
-  list-style: none;
-  width: 80%;
-  display: flex;
-  color: #fff;
-  justify-content: space-between;
-  margin-left: -6%;
-}
-
-.partner-logos li {
-  display: flex;
-  justify-content: space-between;
-}
-
-.partner-logos li p {
-  margin-top: -6%;
-  margin-left: 3%;
-}
-
 .footer-wrapper {
   display: flex;
   width: 100%;
@@ -596,10 +576,10 @@ hr {
   }
 
   .text1 {
-    margin-left: 10%;
+    margin-left: 12%;
     margin-right: 50%;
     padding: 2%;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
   }
 
@@ -616,8 +596,7 @@ hr {
   .middle-section-wrapper {
     display: flex;
     flex-direction: column;
-    align-items:start;
-    
+    align-items: start;
   }
 
   .text2 {
@@ -630,11 +609,11 @@ hr {
     margin-right: 1%;
   }
 
-.text2 h2 {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: 40px;
-}
+  .text2 h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+  }
 
   .steps {
     display: flex;
@@ -689,11 +668,22 @@ hr {
   }
 
   .partner-logos {
-    justify-content: center;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
   }
 
   .partner-logos li {
-    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    min-width: 110px;
+    align-items: center;
+  }
+
+  .partner-logos li p {
+    margin-left: 3%;
   }
 
   .HS-buttons {
@@ -734,10 +724,9 @@ hr {
     margin-top: 10vh;
     background-color: #fff;
     border: solid 1px #4e515731;
-    width:40%;
+    width: 40%;
     font-size: 12px;
     line-height: 20px;
-    
   }
 
   .text2b {
@@ -916,7 +905,6 @@ hr {
   .nav-item {
     text-decoration: none;
     color: #272a31;
-
   }
 
   .last-nav-item {
@@ -940,7 +928,7 @@ hr {
   .top-nav-a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     margin-left: 14px;
     font-size: 10px;
   }
