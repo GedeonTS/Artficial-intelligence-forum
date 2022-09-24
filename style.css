@@ -34,7 +34,6 @@ body {
 
 .top-header {
   color: #ec5342d0;
-  margin-top: -12px;
   font-size: 50px;
   padding-left: 0;
   padding-right: 0;
@@ -43,6 +42,10 @@ body {
   background-size: cover;
   -webkit-background-clip: text;
   margin-bottom: 0;
+}
+
+.top-header-home {
+  margin-top: -12px;
 }
 
 .greetings {
@@ -210,6 +213,14 @@ h3 {
 .behind-picture {
   width: 58px;
   height: 58px;
+  background-image: url(./IMG/newChess.webp);
+  background-size: cover;
+  margin: 0;
+}
+
+.behind-pic-mobile {
+  width: 58px;
+  height: 58px;
   background-image: url(./IMG/chess.png);
   background-size: cover;
   margin: 0;
@@ -368,7 +379,8 @@ hr {
   margin: 0;
   background-color: #d3d3d342;
   margin-top: -5%;
-  padding-top: 10px;
+  padding-top: 10vh;
+  height: 100vh;
 }
 
 .middle1 {
@@ -667,6 +679,10 @@ hr {
     flex-direction: column;
   }
 
+  .logo-descriptiona p {
+    width: 30%;
+  }
+
   .partner-logos {
     width: 50%;
     list-style: none;
@@ -677,7 +693,6 @@ hr {
 
   .partner-logos li {
     display: flex;
-    align-items: center;
     min-width: 110px;
     align-items: center;
   }
@@ -714,10 +729,6 @@ hr {
     background-color: #ec5242;
   }
 
-  .about-section1 {
-    height: 90vh;
-  }
-
   .text1a {
     margin-left: 0;
     margin-right: 0;
@@ -750,10 +761,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .logo-descriptiona p {
-    width: 30%;
   }
 
   .logo-wrappera {
@@ -828,6 +835,7 @@ hr {
   }
 
   .about-section1 {
+    height: 90vh;
     padding-top: 170px;
   }
 
