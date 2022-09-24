@@ -42,9 +42,9 @@ const Data1 = [{
   Descrition: 'With an experience of around 17 years in Information and Communication Technology',
 }, {
   photo: './IMG/speakers/IMG_8237.jpg',
-  Name: 'Mr Ushindi Gedeon',
-  Work: 'Software Developer',
-  Descrition: 'Co-founder of RX-telecom, With an experience in Information and Communication Technology',
+  Name: 'Mr Dr Maxime Flament',
+  Work: 'Chief Technology Officer',
+  Descrition: ' With an experience as Head of Department for Connected & Automated Driving (CAD) at ERTICO',
 }, {
   photo: './IMG/speakers/AmadouGarba.jpg',
   Name: 'Mr Karim Abdelghani',
