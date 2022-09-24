@@ -718,12 +718,25 @@ hr {
     justify-content: center;
   }
 
+  .about-hd {
+    background-image: none;
+    background-color: #ec5242;
+  }
+
+  .about-section1 {
+    height: 90vh;
+  }
+
   .text1a {
     margin-left: 0;
     margin-right: 0;
-    width: 50%;
-    font-size: 10px;
+    margin-top: 10vh;
+    background-color: #fff;
+    border: solid 1px #4e515731;
+    width:40%;
+    font-size: 12px;
     line-height: 20px;
+    
   }
 
   .text2b {
@@ -732,7 +745,8 @@ hr {
     margin-bottom: 10%;
     margin-right: 50%;
     width: 40%;
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: 700;
     line-height: 16px;
   }
 
@@ -957,10 +971,6 @@ hr {
   .bar {
     width: 1%;
     border: solid 1px red;
-  }
-
-  .midlle1a {
-    margin-top: -10%;
   }
 
   .black-menua {
