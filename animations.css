@@ -1,0 +1,27 @@
+.top-header {
+  animation: myheader 4s;
+}
+
+@keyframes myheader {
+  from { margin-left: -300px; }
+  to { margin-left: 0; }
+}
+
+.greetings {
+  animation: mygreetings 3s;
+}
+
+@keyframes mygreetings {
+  from { margin-left: 300px; }
+  to { margin-left: 0; }
+}
+
+.white-menu,
+.black-menu {
+  animation: mynav 2s;
+}
+
+@keyframes mynav {
+  from { margin-top: -300px; }
+  to { margin-top: 0; }
+}
