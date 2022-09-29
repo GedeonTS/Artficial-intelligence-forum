@@ -1,5 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Artficial-intelligence-forum
+![Screenshot from 2022-09-28 17-34-26](https://user-images.githubusercontent.com/97834160/192991753-6c90cf10-6ab0-4a1b-9e64-df9888db43d5.png)
+
+
 
 > Welcome to my Microverse's Capstone 1 project, the international artificial intelligence forum website. In this project, we are given with a [template design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and we are asked to make our own website with a different subject - which in my case is the international artificial intelligence forum!This is a responsive website that navigates from the home page to the about page, follow mobile first sticks to the template design as much as possible.
 ## Built With
