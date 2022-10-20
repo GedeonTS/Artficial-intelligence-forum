@@ -91,7 +91,8 @@ body {
 
 .insider {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -122,12 +123,8 @@ body {
   border: solid 2px #fff;
 }
 
-.step h4 {
+.step h3 {
   color: #ec5242;
-}
-
-h3 {
-  font-size: 30px;
 }
 
 .text2 {
@@ -187,6 +184,7 @@ h3 {
 
 .speaker-wrapper {
   width: 88%;
+  min-width: 320px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -368,10 +366,18 @@ hr {
 
 .contact-text-resize {
   width: 70%;
-  margin-left: 14.5%;
   text-align: center;
   font-family: "Lato", sans-serif;
   font-weight: 400;
+}
+
+.main-container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .about-section1 {
@@ -381,6 +387,18 @@ hr {
   margin-top: -5%;
   padding-top: 10vh;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section1 h1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .middle1 {
@@ -394,6 +412,10 @@ hr {
   font-weight: 700;
   width: 70%;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .bar-cover {
@@ -406,6 +428,7 @@ hr {
 .bar {
   width: 10%;
   border: solid 1px red;
+  display: flex;
 }
 
 .logo-description {
@@ -423,7 +446,6 @@ hr {
   flex-direction: column;
   align-items: center;
   border: solid 1px gray;
-  margin-left: 5%;
 }
 
 .logo {
@@ -438,22 +460,24 @@ hr {
 }
 
 .new-york {
-  width: 90%;
+  width: 90vw;
   height: 30vh;
   background-image: url(./IMG/new-york.jpg);
   background-size: cover;
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .london {
-  width: 90%;
+  width: 90vw;
   height: 30vh;
   margin-top: 2vh;
   background-image: url(./IMG/london1.jpg);
   background-size: cover;
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .inside {
@@ -464,6 +488,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
@@ -480,7 +505,7 @@ hr {
 
 .partners {
   background-color: #272a31;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
@@ -497,8 +522,35 @@ hr {
 }
 
 .footer {
-  display: flex;
+  display: none;
   width: 80%;
+  align-items: center;
+  justify-self: center;
+}
+
+.partners-about {
+  display: flex;
+}
+
+.partner-logos-about {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+}
+
+.partner-logos-about li {
+  list-style: none;
+  min-width: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-about {
+  display: flex;
   align-items: center;
   justify-self: center;
 }
@@ -674,11 +726,6 @@ hr {
     padding-bottom: 0;
   }
 
-  .big-footer {
-    display: flex;
-    flex-direction: column;
-  }
-
   .logo-descriptiona p {
     width: 30%;
   }
@@ -741,14 +788,8 @@ hr {
   }
 
   .text2b {
-    margin-left: 31%;
-    margin-top: 1%;
-    margin-bottom: 10%;
-    margin-right: 50%;
+    margin-left: 0;
     width: 40%;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
   }
 
   .logo-descriptiona {
@@ -765,7 +806,6 @@ hr {
 
   .logo-wrappera {
     width: 40%;
-    margin-left: 30%;
   }
 
   .events {
@@ -774,8 +814,8 @@ hr {
     justify-items: center;
     margin: 0;
     padding: 0;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 40%;
+    min-width: 500px;
   }
 
   .new-york {
@@ -794,7 +834,12 @@ hr {
     display: flex;
   }
 
+  .partners {
+    display: flex;
+  }
+
   .footer {
+    display: flex;
     width: auto;
     font-size: 13px;
     margin-top: 40px;
@@ -802,13 +847,13 @@ hr {
     margin-left: -35%;
   }
 
-  .footera {
+  .footer-about {
     margin-top: 7%;
     background-color: #272a31;
     color: #fff;
   }
 
-  .partnersa {
+  .partners-about {
     display: none;
   }
 
